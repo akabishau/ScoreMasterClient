@@ -1,0 +1,35 @@
+.game-score {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  padding: 20px;
+}
+
+.game-score__header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.game-score__date {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.game-score__text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.game-score__body {
+  display: flex;
+  gap: 10px;
+}
