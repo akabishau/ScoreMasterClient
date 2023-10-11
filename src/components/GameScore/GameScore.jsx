@@ -6,7 +6,9 @@ function GameScore({ gameName, date, players }) {
     month: 'long',
     day: 'numeric'
   };
+
   const formatedDate = new Intl.DateTimeFormat('en-US', options).format(date);
+
   return (
     <>
       <h2 className="game-score__header">{gameName}</h2>
