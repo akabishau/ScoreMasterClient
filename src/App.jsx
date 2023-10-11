@@ -1,10 +1,15 @@
 import './App.css';
+import SidePanel from './layouts/SidePanel/SidePanel';
+import ResultList from './components/ScoreList/ScoreList';
 
 function App() {
   return (
-    <>
-      <h1>Score Master</h1>
-    </>
+    <div className="app">
+      <SidePanel>
+        <ResultList />
+      </SidePanel>
+      <div>Details</div>
+    </div>
   );
 }
 
